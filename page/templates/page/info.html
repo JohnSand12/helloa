@@ -1,0 +1,10 @@
+{% extends "page/layout.html" %}
+
+{% block body %}
+    {% for account in accounts %}
+        <div class="account">
+            <h1>Name: {{ account.name }}</h1>
+            <h1>Password: {{ account.password }}</h1>
+        </div>
+    {% endfor %}
+{% endblock %}

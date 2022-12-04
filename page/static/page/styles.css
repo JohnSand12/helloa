@@ -1,0 +1,141 @@
+.account {
+    border: 2px solid black;
+    padding-left: 10px;
+}
+
+.right_block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-right: 20px;
+    padding-top: 7%;
+}
+
+.left_block {
+    display: flex;
+    justify-content: flex-start;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.input {
+    border: solid 1px #87b4cc;
+    margin-bottom: 10px;
+    line-height: 29px;
+    padding-left: 5px;
+    width: 300px;
+}
+
+.input:hover {
+    background-color: rgb(227, 243, 255);
+}
+
+.button {
+    display: inline-block;
+    font-family: "Open Sans",sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    height: 29px;
+    line-height: 29px;
+    padding: 0 20px;
+    text-align: center;
+    background-color: #84cec5;
+    text-decoration: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 310px;
+}
+
+.button:hover {
+    background-color:#99dfd6;
+}
+
+.t_img {
+    height: 48px;
+    margin-left: 70px;
+    margin-bottom: 35px;
+}
+
+.register {
+    text-align: center;
+    margin-top: 15px;
+    font-family: "Open Sans",sans-serif;
+    color: #686868;
+    font-size: 13px;
+    padding-bottom: 13px;
+    border-bottom: solid 1px #e8e8e8
+}
+
+.register_1 {
+    text-align: center;
+    margin-top: 15px;
+    font-family: "Open Sans",sans-serif;
+    color: #686868;
+    font-size: 13px;
+    padding-bottom: 13px;
+}
+
+a {
+    color: #09c;
+    text-decoration: none;
+    font-family: "Open Sans",sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.col_left {
+    width: 98%;
+    float: left;
+    max-height: 100vh;
+    background: #030303;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.connect_with {
+    font-size: 15px;
+    color: #3F6877;
+    font-weight: bold;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.ps {
+    width: 70%;
+    height: 50px;
+}
+
+.ps_div {
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: solid 1px #e8e8e8;
+}
+
+.last {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.last_link {
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.l {
+    margin-top: 5px;
+    font-family: "Open Sans", sans-serif;
+    color: #686868;
+}

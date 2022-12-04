@@ -1,0 +1,42 @@
+{% extends "page/layout.html" %}
+
+{% block body %}
+<div class="block">
+    <div class="left_block">
+        <a class="preview-banner" target="_blank" href="https://www.tamo.lt/ismaniems?_ga=2.23883514.1180652516.1669475268-1013823087.1645983429">
+            <div><img class="col_left" src="/static/page/AD.jpg"></div>
+        </a>
+    </div>
+
+    <div class="right_block">
+        <div id="form">
+            <div><img src="https://content.tamo.lt/images/tamo_ukraina.svg" class="t_img"></div>
+            <form action="{% url 'login' %}" method="post">
+                {% csrf_token %}
+                    <div>
+                        <input class="input" type="text" name="name" placeholder="Naudotojo vardas">
+                    </div>
+                    <div>
+                        <input class="input" type="password" name="password" placeholder="Slaptažodis">
+                    </div>
+                    <div>
+                        <input class="button" type="submit" value="PRISIJUNGTI">
+                    </div>
+            </form>
+        </div>
+        <div class="register">Neturi TAMO paskyros? <a href="">Registruokis</a></div>
+        <div class="register_1"><a href="">Nepavyksta prisijungti?</a></div>
+        <div class="register" style="margin-top: -2px;"><a href="">Pamiršote prisijungimo duomenis?</a></div>
+        <div class="connect_with">Prisijungti su</div>
+        <div class="ps_div"><img src="static/page/ipasas.png" class="ps"></div>
+        <div class="last">
+            <a href="" class="last_link">Privatumo politika</a>
+            <a href="" class="last_link">Naudojimo taisyklės</a>
+        </div>
+        <div style="font-size: 12px; text-align: center;">
+            <div class="l">©2022 UAB „Tavo mokykla“.</div>
+            <div class="l">Visos teisės saugomos. v4.3.22451</div>
+        </div>
+    </div>
+</div>
+{% endblock %}
