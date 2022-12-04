@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-mowy=#5-=_$cm6o955c@!mdc+m$n@ta_9cmun@5@iwzlinq2+a
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'community.pythonanywhere.com'
+    'johnsanders.pythonanywhere.com'
 ]
 
 
