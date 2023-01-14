@@ -14,6 +14,7 @@
 .left_block {
     display: flex;
     justify-content: flex-start;
+    min-height: 100vh;
 }
 
 html, body {
@@ -63,7 +64,7 @@ html, body {
 .t_img {
     height: 48px;
     margin-left: 70px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .register {
@@ -97,11 +98,13 @@ a:hover {
 
 .col_left {
     width: 98%;
-    float: left;
-    max-height: 100vh;
-    background: #030303;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    display: flex;
+    justify-content: left;
+    min-height: 100vh;
+    background: #F4E140;
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
 
 .connect_with {
